@@ -1,0 +1,50 @@
+.single_service{
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #7865ff;
+    transition: 0.3s;
+}
+
+.service_icon{
+    color: #7865ff;
+    font-size: 2.2rem;
+
+}
+
+.service_top h6{
+    color: #7865ff;
+    margin-bottom: 15px;
+}
+
+.single_service h2{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.single_service p{
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.single_service:hover{
+    transform: translateY(-15px);
+}
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .single_service h2{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .single_service p{
+        font-size: 0.7rem;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,30 @@
+.single_testimonial{
+    padding: 30px;
+}
+
+.single_testimonial p {
+    margin-bottom: 15px;
+}
+
+.single_testimonial h6{
+    margin-bottom: 10px;
+    color: #7865ff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.single_testimonial .title{
+    font-weight: 300 !important;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .single_testimonial p{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+}
