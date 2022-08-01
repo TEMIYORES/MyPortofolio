@@ -63,10 +63,7 @@ const About = () => {
                 <div className="about_content w-75">
                   <h2>I'm Qayyum Ibrahim</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae vel adipisci culpa numquam, officia quas debitis
-                    placeat est iusto odit quasi. Possimus fugit molestiae saepe
-                    vero atque eos iure hic?
+                  Hello! My name is Qayyum Ibrahim and I enjoy creating things that live on your mobile devices, PCs and the Internet at large. My interest in Software Engineering started back in 2016 when I signed up for a Summer Bootcamp in Electronics coupled with bringing the components to live with some basic Javascript Program 
                   </p>
 
                   <div className="social_links">

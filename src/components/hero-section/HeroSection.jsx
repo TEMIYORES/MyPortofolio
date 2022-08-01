@@ -35,11 +35,10 @@ const HeroSection = () => {
                 I'm <span ref={textRef}></span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                iste suscipit quo, impedit quis cum et eum quasi. Debitis vitae
-                culpa error mollitia blanditiis ex corporis beatae aperiam quis
-                ratione?Lorem ipsum dolor sit amet consectetur, adipisicing
-                elit. Commodi, aut.
+                A potential software engineer specializing in building (and
+                occasionally designing) exceptional digital experiences.
+                Currently, I'm enrolled in the Advanced Diploma in Software
+                Engineering (ADSE) programme at Aptech.
               </p>
 
               <div className=" mt-5 hero_btns d-flex align-items-center gap-4">
