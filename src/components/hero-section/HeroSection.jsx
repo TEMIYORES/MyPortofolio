@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-import testImg from "../../assests/images/qayyum.jpeg";
+import testImg from "../../assests/images/qayyum.png";
 import { init } from "ityped";
 let isLoading = true;
 
