@@ -21,6 +21,16 @@ const portfolioData = [
     title: "React Web Application",
     url: "http://www.aptechabeokuta.com.ng/",
   },
+  {
+    imgUrl: img3,
+    title: "React Web Application",
+    url: "http://www.aptechabeokuta.com.ng/",
+  },
+  {
+    imgUrl: img3,
+    title: "React Web Application",
+    url: "http://www.aptechabeokuta.com.ng/",
+  },
 ];
 
 const Portfolio = () => {
@@ -33,7 +43,7 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
           </Col>
 
-          {portfolioData.map((item, index) => (
+          {portfolioData.slice(0, 3).map((item, index) => (
             <Col lg="4" md="6" sm="6" key={index}>
               <div className="portfolio_card">
                 <div className="portfolio_img">
@@ -48,6 +58,26 @@ const Portfolio = () => {
             </Col>
           ))}
         </Row>
+        {/* <Row className="mt-5">
+          <Col lg="12" className="portfolio_top mb-5">
+            <h6>Not yet deployed </h6>
+            <h2>Portfolio</h2>
+          </Col>
+          {portfolioData.slice(0, 3).map((item, index) => (
+            <Col lg="4" md="6" sm="6" key={index}>
+              <div className="portfolio_card">
+                <div className="portfolio_img">
+                  <img src={item.imgUrl} alt="" className="w-100" />
+                </div>
+
+                <div className="portfolio_content">
+                  <h5>{item.title}</h5>
+                  <a href={item.url}> View live demo</a>
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row> */}
       </Container>
     </section>
   );

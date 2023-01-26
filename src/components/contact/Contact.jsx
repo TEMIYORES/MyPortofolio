@@ -16,11 +16,11 @@ const Contact = () => {
             <div className="contact_info-container d-flex align-items-center gap-5">
               <div className="single_info-box w-50">
                 <h6>Address</h6>
-                <p>Abeokuta, Nigeria</p>
+                <p>Lekki Lagos, Nigeria</p>
               </div>
 
               <div className="single_info-box w-50">
-                <h6>Phone</h6>
+                <h6>Phone & WhatsApp</h6>
                 <p>+234 702 601 0646</p>
               </div>
             </div>
@@ -33,7 +33,7 @@ const Contact = () => {
 
               <div className="single_info-box w-50">
                 <h6>Location</h6>
-                <p>Abeokuta, OgunSate Nigeria</p>
+                <p>Lekki, Lagos State, Nigeria</p>
               </div>
             </div>
           </Col>
