@@ -15,8 +15,8 @@ const Education = () => {
 
       <tbody>
         <tr>
-          <td>AD</td>
-          <td>Software Engineering</td>
+          <td>ADSE</td>
+          <td>Advanced Diploma in Software Engineering</td>
           <td>Aptech Computer Education</td>
           <td>2019 - 2022</td>
         </tr>
@@ -25,14 +25,14 @@ const Education = () => {
           <td>WAEC</td>
           <td>General</td>
           <td>Catholic Comprehensive college</td>
-          <td>2016 - 2018</td>
+          <td>2018</td>
         </tr>
 
         <tr>
           <td>SSC</td>
           <td>General</td>
           <td>Catholic Comprehensive College</td>
-          <td>2012 - 2016</td>
+          <td>2012 - 2018</td>
         </tr>
       </tbody>
     </table>

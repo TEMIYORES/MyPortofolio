@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-import testImg from "../../assests/images/qayyum.png";
+import testImg from "../../assets/images/qayyum.png";
+import qayyum from "./Resume.pdf";
 import { init } from "ityped";
 let isLoading = true;
 
@@ -17,13 +18,26 @@ const HeroSection = () => {
         showCursor: true,
         strings: [
           "Qayyum Ibrahim",
-          "a Javascript Developer",
-          "a Front-End Developer",
+          "a MERN Stack Developer",
+          "a WordPress Developer",
         ],
       });
     }
   }, []);
 
+  const downloadTxtFile = () => {
+    fetch(qayyum).then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Qayyum_Ibrahim_CV.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <section className="hero_section" id="home">
       <Container>
@@ -35,19 +49,19 @@ const HeroSection = () => {
                 I'm <span ref={textRef}></span>
               </h2>
               <p>
-                A potential software engineer specializing in building (and
-                occasionally designing) exceptional digital experiences.
-                Currently, I'm enrolled in the Advanced Diploma in Software
-                Engineering (ADSE) programme at Aptech.
+                As a software engineer, I am driven by the belief that
+                technology has the power to transform society for the better. I
+                am passionate about creating innovative solutions that solve
+                complex problems and improve people's lives.
               </p>
 
               <div className=" mt-5 hero_btns d-flex align-items-center gap-4">
-                <button className="btn hire_btn">
-                  <a href="#">Hire Me</a>
+                <button className="btn hire_btn" onClick={downloadTxtFile}>
+                  <a href="#contact">Download My CV</a>
                 </button>
-                <button className="btn">
+                {/* <button className="btn">
                   <a href="#contact">Contact</a>
-                </button>
+                </button> */}
               </div>
             </div>
           </Col>

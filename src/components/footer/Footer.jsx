@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="pb-4">
       <Container className="text-center footer">
         <p>
-          &copy; Copyright 2022, Developed by Qayyum Ibrahim. All Rights
+          &copy; Copyright 2023, Developed by Qayyum Ibrahim. All Rights
           Reserved
         </p>
       </Container>

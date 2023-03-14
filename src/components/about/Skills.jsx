@@ -4,26 +4,34 @@ import "./skills.css";
 const frontendSkills = [
   {
     title: "Javascript",
-    percentage: "90%",
+    percentage: "100%",
   },
   {
     title: "React.js",
-    percentage: "80%",
+    percentage: "100%",
   },
   {
     title: "Html | Css",
-    percentage: "90%",
+    percentage: "100%",
+  },
+  {
+    title: "WordPress",
+    percentage: "100%",
+  },
+  {
+    title: "Elementor",
+    percentage: "100%",
   },
 ];
 
 const backendSkills = [
   {
     title: "NodeJs | ExpressJs",
-    percentage: "83%",
+    percentage: "80%",
   },
   {
     title: "MongoDB",
-    percentage: "85%",
+    percentage: "80%",
   },
 ];
 

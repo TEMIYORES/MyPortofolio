@@ -28,25 +28,41 @@ const Testimonials = () => {
               <div>
                 <div className="single_testimonial">
                   <p>
-                    Qayyum Ibrahim is a good student and we are proud of him. He
-                    will be a graduate of Aptech Institution by 1st September,
-                    2022.
+                    I'm so pleased with the website that this company developed
+                    for my business. It looks professional and polished, and
+                    it's easy to navigate. They really listened to my needs and
+                    created a custom solution that exceeded my expectations.
                   </p>
 
-                  <h6>Centre manager</h6>
-                  <p className="title">Aptech</p>
+                  <h6>Mrs. Okpara</h6>
+                  <p className="title">Aptech Manager</p>
                 </div>
               </div>
               <div>
                 <div className="single_testimonial">
                   <p>
-                    Qayyum Ibrahim is a good student and we are proud of him. He
-                    will be a graduate of Aptech Institution by 1st September,
-                    2022.
+                    I highly recommend this qayyum to anyone looking for a
+                    top-notch website. He took the time to understand my
+                    business and its unique needs, and delivered a site that
+                    truly reflects my vision. He is a pleasure to work with and
+                    the results speak for themselves.
                   </p>
 
-                  <h6>Centre manager</h6>
-                  <p className="title">Aptech</p>
+                  <h6>Mr. Desmond</h6>
+                  <p className="title">Business Man</p>
+                </div>
+              </div>
+              <div>
+                <div className="single_testimonial">
+                  <p>
+                    I couldn't be happier with the website this qayyum created
+                    for me. It's beautiful, functional, and easy to use. He was
+                    able to take my ideas and turn them into a reality, and the
+                    end result is better than I ever could have imagined.
+                  </p>
+
+                  <h6>Mr. Enuku</h6>
+                  <p className="title">Wingman Legal CEO</p>
                 </div>
               </div>
             </Slider>

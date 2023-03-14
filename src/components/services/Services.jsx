@@ -4,21 +4,66 @@ import "./services.css";
 
 const serviceData = [
   {
-    icon: "ri-android-line",
-    title: "Android App Development",
-    desc: "I build things that live on your mobile devices, PCs and the Internet at large with React Native.",
+    icon: "ri-file-word-line",
+    title: "Custom WordPress Development",
+    desc: "I can create customized WordPress websites that cater to specific business requirements. This involves creating unique themes, plugins, and integrations to enhance website functionality.",
   },
 
   {
-    icon: "ri-code-s-slash-line",
-    title: "Web Development",
-    desc: "I build things that live on your mobile devices, PCs and the Internet at large with Reactjs",
+    icon: "ri-file-word-line",
+    title: "WordPress Website Maintenance",
+    desc: "I can provide ongoing maintenance and support for WordPress websites to ensure optimal performance, regular updates, and security. This includes troubleshooting issues, resolving bugs, and ensuring compatibility with the latest WordPress version.",
   },
 
   {
-    icon: "ri-gallery-line",
-    title: "UI/UX",
-    desc: "I am also creative and design UIs.",
+    icon: "ri-file-word-line",
+    title: "WordPress eCommerce Development",
+    desc: "I can develop eCommerce websites using WordPress that are secure, scalable, and easy to manage. This includes integrating payment gateways, inventory management, and shipping solutions.",
+  },
+  {
+    icon: "ri-file-word-line",
+    title: "Website Migration",
+    desc: "I can assist with website migration from other platforms to WordPress, ensuring seamless transfer of content and data.",
+  },
+  {
+    icon: "ri-file-word-line",
+    title: "SEO Optimization",
+    desc: "I can optimize WordPress websites for search engines, improving website visibility and ranking in search results. This includes optimizing website content, metadata, and structure.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "Custom MERN Stack Development",
+    desc: "I can create customized web applications that cater to specific business requirements using the MERN stack (MongoDB, Express, React, and Node.js). This involves developing full-stack applications with a focus on optimizing performance, scalability, and user experience.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "MERN Stack Web Development",
+    desc: "I can create web applications using the MERN stack to provide a seamless user experience across different devices and platforms. This includes developing responsive front-end interfaces, back-end APIs, and integrating third-party services.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "MERN Stack E-commerce Development",
+    desc: "I can develop e-commerce web applications using the MERN stack, which are secure, scalable, and easy to manage. This includes integrating payment gateways, inventory management, and shipping solutions.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "MERN Stack Application Maintenance",
+    desc: "I can provide ongoing maintenance and support for MERN stack applications to ensure optimal performance, regular updates, and security. This includes troubleshooting issues, resolving bugs, and ensuring compatibility with the latest version of the stack.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "API Development:",
+    desc: "I can develop custom APIs using the MERN stack, which can be integrated with third-party services, applications, and databases. This includes developing RESTful APIs and GraphQL APIs.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "MERN Stack Migration",
+    desc: "I can assist with migrating existing web applications to the MERN stack, ensuring seamless transfer of content and data.",
+  },
+  {
+    icon: "ri-reactjs-fill",
+    title: "Cloud-based Hosting",
+    desc: "I can help businesses deploy and host MERN stack applications on cloud-based platforms such as AWS, Google Cloud, and Microsoft Azure. This includes managing server instances, load balancing, and auto-scaling.",
   },
 ];
 
