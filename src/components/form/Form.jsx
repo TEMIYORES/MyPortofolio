@@ -30,7 +30,9 @@ export const Form = () => {
         "KB_ewm-VYxvmItmpX"
       )
       .then(
-        (result) => {},
+        (result) => {
+          clearAll();
+        },
         (error) => {
           console.log(error.text);
         }

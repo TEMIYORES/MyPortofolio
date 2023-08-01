@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
 import testImg from "../../assets/images/qayyum.png";
-import qayyum from "./Resume.pdf";
+import qayyum from "./Qayyum Ibrahim Temilade.pdf";
 import { init } from "ityped";
 let isLoading = true;
 
@@ -33,7 +33,7 @@ const HeroSection = () => {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Qayyum_Ibrahim_CV.pdf";
+        alink.download = "Qayyum_Ibrahim_Resume.pdf";
         alink.click();
       });
     });
