@@ -10,6 +10,8 @@ import wingman from "../../assets/images/wingman.png";
 import restaurant from "../../assets/images/restaurant.png";
 import plugskills from "../../assets/images/plugskills.png";
 import mernauth from "../../assets/images/mernauth.png";
+import manage from "../../assets/images/manage.png";
+import project from "../../assets/images/project_mgm.png";
 const portfolioData = [
   {
     imgUrl: restaurant,
@@ -18,8 +20,13 @@ const portfolioData = [
   },
   {
     imgUrl: novarickhomes,
-    title: "Novarick Homes and Properties Website ",
+    title: "Novarick Homes and Properties New Website",
     url: "https://novarickhomes.netlify.app/",
+  },
+  {
+    imgUrl: novarickhomes,
+    title: "Novarick Homes and Properties Official Website",
+    url: "https://novarickhomes.com/",
   },
   {
     imgUrl: img5,
@@ -35,6 +42,16 @@ const portfolioData = [
     imgUrl: plugskills,
     title: "PlugSkills Website",
     url: "https://plugskills.com/",
+  },
+  {
+    imgUrl: manage,
+    title: "Tailwind Website",
+    url: "https://tailwind-manage.vercel.app/",
+  },
+  {
+    imgUrl: project,
+    title: "Project Management Website",
+    url: "https://project-mgt.vercel.app/",
   },
   {
     imgUrl: mernauth,
@@ -71,50 +88,8 @@ const Portfolio = () => {
             </h6>
           </Col>
 
-          {portfolioData.slice(0, 3).map((item, index) => (
-            <Col lg="4" md="6" sm="6" key={index}>
-              <div className="portfolio_card">
-                <div className="portfolio_img">
-                  <img src={item.imgUrl} alt="" className="w-100" />
-                </div>
-
-                <a
-                  className="portfolio_content"
-                  href={item.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h5>{item.title}</h5>
-                  <span> View live demo</span>
-                </a>
-              </div>
-            </Col>
-          ))}
-        </Row>
-        <Row className="mt-5">
-          {portfolioData.slice(3, 6).map((item, index) => (
-            <Col lg="4" md="6" sm="6" key={index}>
-              <div className="portfolio_card">
-                <div className="portfolio_img">
-                  <img src={item.imgUrl} alt="" className="w-100" />
-                </div>
-
-                <a
-                  className="portfolio_content"
-                  href={item.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h5>{item.title}</h5>
-                  <span> View live demo</span>
-                </a>
-              </div>
-            </Col>
-          ))}
-        </Row>
-        <Row className="mt-5">
-          {portfolioData.slice(6, 10).map((item, index) => (
-            <Col lg="4" md="6" sm="6" key={index}>
+          {portfolioData.map((item, index) => (
+            <Col lg="4" md="6" sm="6" className="mt-5" key={index}>
               <div className="portfolio_card">
                 <div className="portfolio_img">
                   <img src={item.imgUrl} alt="" className="w-100" />
