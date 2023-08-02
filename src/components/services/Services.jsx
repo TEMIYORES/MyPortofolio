@@ -52,7 +52,7 @@ const serviceData = [
   },
   {
     icon: "ri-reactjs-fill",
-    title: "API Development:",
+    title: "API Development",
     desc: "I can develop custom APIs using the MERN stack, which can be integrated with third-party services, applications, and databases. This includes developing RESTful APIs and GraphQL APIs.",
   },
   {
@@ -73,8 +73,7 @@ const Services = () => {
       <Container>
         <Row>
           <Col lg="12" className="service_top mb-5">
-            <h6>Features</h6>
-            <h2>What services do I provide</h2>
+            <h2>What services do I provide?</h2>
           </Col>
 
           {serviceData.map((item, index) => (

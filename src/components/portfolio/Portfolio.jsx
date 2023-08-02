@@ -3,6 +3,7 @@ import "./portfolio.css";
 import { Container, Row, Col } from "reactstrap";
 import birthday from "../../assets/images/birthday.png";
 import novarickhomes from "../../assets/images/novarickhomes.png";
+import novarick from "../../assets/images/novarick.png";
 import flappybird from "../../assets/images/flappybird.png";
 import img5 from "../../assets/images/novagro.jpeg";
 import img6 from "../../assets/images/crypto.jpeg";
@@ -11,6 +12,7 @@ import restaurant from "../../assets/images/restaurant.png";
 import plugskills from "../../assets/images/plugskills.png";
 import mernauth from "../../assets/images/mernauth.png";
 import manage from "../../assets/images/manage.png";
+import movieland from "../../assets/images/movieland.png";
 import project from "../../assets/images/project_mgm.png";
 const portfolioData = [
   {
@@ -24,7 +26,7 @@ const portfolioData = [
     url: "https://novarickhomes.netlify.app/",
   },
   {
-    imgUrl: novarickhomes,
+    imgUrl: novarick,
     title: "Novarick Homes and Properties Official Website",
     url: "https://novarickhomes.com/",
   },
@@ -47,6 +49,11 @@ const portfolioData = [
     imgUrl: manage,
     title: "Tailwind Website",
     url: "https://tailwind-manage.vercel.app/",
+  },
+  {
+    imgUrl: movieland,
+    title: "Movieland WebApp",
+    url: "https://movie-app-ng.vercel.app/",
   },
   {
     imgUrl: project,
