@@ -14,6 +14,7 @@ import mernauth from "../../assets/images/mernauth.png";
 import manage from "../../assets/images/manage.png";
 import movieland from "../../assets/images/movieland.png";
 import project from "../../assets/images/project_mgm.png";
+import data from "../../assets/images/data.png";
 const portfolioData = [
   {
     imgUrl: restaurant,
@@ -49,6 +50,11 @@ const portfolioData = [
     imgUrl: manage,
     title: "Tailwind Website",
     url: "https://tailwind-manage.vercel.app/",
+  },
+  {
+    imgUrl: data,
+    title: "Data analytics Website",
+    url: "https://data-analytic.vercel.app/",
   },
   {
     imgUrl: movieland,
