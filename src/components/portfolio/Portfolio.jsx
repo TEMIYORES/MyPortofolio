@@ -3,6 +3,7 @@ import "./portfolio.css";
 import { Container, Row, Col } from "reactstrap";
 import birthday from "../../assets/images/birthday.png";
 import novarickhomes from "../../assets/images/novarickhomes.png";
+import eatnow from "../../assets/images/eatnow.png";
 import novarick from "../../assets/images/novarick.png";
 import flappybird from "../../assets/images/flappybird.png";
 import img5 from "../../assets/images/novagro.jpeg";
@@ -25,6 +26,11 @@ const portfolioData = [
     imgUrl: novarickhomes,
     title: "Novarick Homes and Properties New Website",
     url: "https://novarickhomes.netlify.app/",
+  },
+  {
+    imgUrl: eatnow,
+    title: "Eatnow.ng Website",
+    url: "https://eatnow.ng/",
   },
   {
     imgUrl: novarick,
