@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-import testImg from "../../assets/images/qayyum.png";
+import testImg from "../../assets/images/qayyum.jpg";
 import qayyum from "./QAYYUM IBRAHIM Resume.pdf";
 import { init } from "ityped";
 let isLoading = true;
@@ -68,7 +68,7 @@ const HeroSection = () => {
 
           <Col lg="6" md="6">
             <div className="hero_img">
-              <img src={testImg} alt="" className="w-100" />
+              <img src={testImg} alt="" className="hero_img" />
             </div>
           </Col>
         </Row>
