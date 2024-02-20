@@ -10,6 +10,8 @@ import img5 from "../../assets/images/novagro.jpeg";
 import img6 from "../../assets/images/crypto.jpeg";
 import wingman from "../../assets/images/wingman.png";
 import restaurant from "../../assets/images/restaurant.png";
+import sixgames from "../../assets/images/sixgames.png";
+import coffeeApp from "../../assets/images/coffeeApp.png";
 import plugskills from "../../assets/images/plugskills.png";
 import mernauth from "../../assets/images/mernauth.png";
 import manage from "../../assets/images/manage.png";
@@ -17,6 +19,16 @@ import movieland from "../../assets/images/movieland.png";
 import project from "../../assets/images/project_mgm.png";
 import data from "../../assets/images/data.png";
 const portfolioData = [
+  {
+    imgUrl: sixgames,
+    title: "Six games",
+    url: "https://sixgames.vercel.app/",
+  },
+  {
+    imgUrl: coffeeApp,
+    title: "Coffee App (will be available for download soon)",
+    url: "",
+  },
   {
     imgUrl: restaurant,
     title: "Ile Iyan Restaurant",
