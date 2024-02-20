@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
 import testImg from "../../assets/images/qayyum.png";
-import qayyum from "./Qayyum Ibrahim Temilade.pdf";
+import qayyum from "./QAYYUM IBRAHIM Resume.pdf";
 import { init } from "ityped";
 let isLoading = true;
 
@@ -57,7 +57,7 @@ const HeroSection = () => {
 
               <div className=" mt-5 hero_btns d-flex align-items-center gap-4">
                 <button className="btn hire_btn" onClick={downloadTxtFile}>
-                  <a href="#contact">Download My CV</a>
+                  Download My CV
                 </button>
                 {/* <button className="btn">
                   <a href="#contact">Contact</a>
