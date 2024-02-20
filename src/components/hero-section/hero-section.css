@@ -10,7 +10,7 @@
 
 .btn a {
   text-decoration: none;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .hire_btn:hover {
@@ -26,8 +26,9 @@
 }
 
 .hero_img {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
   border-radius: 10px;
   background-color: #7865ff;
   margin-left: auto;
